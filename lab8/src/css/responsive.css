@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+}
+
+.ie {
+    display: none;
+    text-align: center;
+    font-size: 26px;
+}

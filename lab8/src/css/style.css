@@ -1,0 +1,54 @@
+body {
+	color: white;
+	height: 100em;
+	width: 1200px;
+	margin: 0 auto;
+	background: linear-gradient(#BE008A, #8F2471, #7C005A, #DF38B1, #DF64BD) no-repeat;
+}
+
+h1 {
+	margin: 20px 0;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h2 {
+	margin: 20px 0;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+p {
+	margin-left: 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: green;
+}
+
+a:hover {
+	color: yellow;
+}
+
+table {
+	margin-top: 20px;
+	border: 2px solid white;
+}
+
+/* Menu */
+
+nav {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 0 10px;
+}

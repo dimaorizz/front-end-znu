@@ -1,0 +1,29 @@
+@media print {
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }у
+
+    *, *:after, *:before {
+        font-family: 'Times New Roman, Georgia, Palatino';
+        background: none;
+        color: black;
+    }
+
+    a {
+        visibility: hidden;
+    }
+
+    a:before {
+        content: attr(href);
+        visibility: visible;
+    }
+
+    body {
+        width: fit-content;
+        margin: 0 50px;
+    }
+}
